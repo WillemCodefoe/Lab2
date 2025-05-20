@@ -1,0 +1,19 @@
+echo off
+md Akhmadullin
+cd Akhmadullin
+md Andrey
+md Eduardovic
+echo > 08082004.txt
+cd Eduardovic
+echo > 2.txt
+cd..
+cd..
+pause
+del Akhmadullin /S /Q /F
+pause
+cd Akhmadullin
+rd Eduardovic
+rd Andrey
+cd..
+rd Akhmadullin
+pause
